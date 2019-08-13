@@ -2,3 +2,7 @@
 bin
 obj
 *.db
+# ignore appsettings configuration files
+**/appsettings.development.json
+**/appsettings.staging.json
+**/appsettings.json
